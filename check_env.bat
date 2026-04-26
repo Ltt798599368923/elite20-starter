@@ -1,0 +1,8 @@
+@echo off
+echo ??????: %CD%
+echo ?? elite-workspace ????:
+if exist "D:\??-elite\elite-workspace" (
+  echo [OK] elite-workspace ??
+) else (
+  echo [FAIL] elite-workspace ???
+)
